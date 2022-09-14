@@ -1,0 +1,1794 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 812px;  
+}
+
+.first-text {
+    font-size: 60px;
+    font-family: "Exo";
+    color: rgb(40, 40, 40);
+    line-height: 1.25;
+    text-align: center;
+    font-weight: 100;
+    padding: 292px 50px;
+    width: 708px;
+    height: 138px;
+  }
+
+  .btns{
+    height: 170px;
+    display: block;
+    align-content: center;
+  }
+
+  .material-icon{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    color: #8185a3;
+    cursor: pointer;
+  }
+
+   .try-now-btn { 
+    border-radius: 3px;
+    background: rgb(255, 109, 109);
+    border: none;
+    width: 190px;
+    height: 50px;
+    font-size: 16px;
+    font-family: "Exo";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: ease-out .2s all;
+  }
+
+  .try-now-btn:hover{
+    background: rgb(237, 90, 90);
+    transition: ease-in .3s all;
+  }
+
+  .card-details {
+    font-size: 14px;
+    font-family: "Exo";
+    color: #767779;
+    text-align: center;
+    font-weight: 400;
+  }
+  
+.new-design{
+    padding: 190px 150px 0px;
+    color: #ff6d6d;
+    font-family: "Exo";
+    font-size: 16px;
+}
+
+.other-platforms{
+    font-size: 40px;
+    color: black;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.lorem-ipsum{
+    font-size: 16px;
+    color: #717171;
+    padding-bottom: 171px;
+}
+
+.new-features{
+    padding-top: 138px;
+    height: 536px;
+    font-size: 16px;
+    font-family: "Exo";
+    color: #ff6d6d;
+    text-align: center;
+}
+
+.awesome-features{
+    font-size: 40px;
+    font-family: "Exo";
+    color: #282828;
+}
+
+.some-awesome-features{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #282828;
+    font-size: 22px;
+    line-height: 1.625;
+}
+
+.some-a-f div{
+    align-items: center;
+    font-size: 16px;
+    color: #80807f;
+    line-height: 1.625;
+}
+
+.new-design{
+    color: #ff6d6d;
+    font-size: 16px;
+}
+
+.new-design-child{
+    font-size: 16px;
+    font-family: "Exo";
+    color: rgb(255, 109, 109);
+    line-height: 3.125;
+    padding-bottom: 20px;
+}
+
+.resposive-design{
+    color: black;
+    font-size: 40px;
+    font-family: "Exo";
+    padding-bottom: 40px;
+    font-weight: 400;
+}
+
+.text{
+    font-size: 16px;
+    font-family: "Exo";
+    color: rgba(40, 40, 40, 0.659);
+    line-height: 1.625;
+}
+
+.new-design2{
+    padding: 115px 115px 115px 739px;
+}
+
+.go-founder-main{
+    padding-top: 108px;
+}
+.go-founder{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    font-family: "Exo";
+}
+
+.go-founder-child{
+    justify-content: center;
+    text-align: center;
+}
+
+.Jonathon_Doe {
+    font-size: 22px;
+    font-family: "Exo";
+    color: rgb(255, 255, 255);
+    line-height: 2.271;
+    text-align: center;
+  }
+
+  .GoFounder{
+    font-size: 16px;
+    font-family: "Exo";
+    color: rgb(255, 109, 109);
+    text-align: center;
+  }
+
+  .text2{
+    font-size: 16px;
+    font-family: "Exo";
+    color: rgba(255, 255, 255, 0.659);
+    font-style: italic;
+    line-height: 1.625;
+    text-align: center;
+  }
+
+  .partners{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 107px;
+    padding-bottom: 94px;
+  }
+
+  .logo1, .logo2, .logo3, .logo4, .logo5{
+    filter:invert(50%);
+    transition: ease-out .5s all;
+  }
+
+  .logo1:hover, .logo2:hover, .logo3:hover, .logo4:hover, .logo5:hover{
+    filter:invert(100%);
+    transition: ease-in .4s all;
+  }
+
+  .new-features2-main{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    height: 650px;
+    padding-top: 108px;
+  }
+
+  .new-features2{
+    font-size: 16px;
+    font-family: "Exo";
+    color: rgb(255, 109, 109);
+    line-height: 3.125;
+  }
+
+  .some-feat{
+    font-size: 40px;
+    font-family: "Exo";
+    color: rgb(40, 40, 40);
+    line-height: 1.25;
+    padding-bottom: 50px
+  }
+  
+  .text3{
+    font-size: 16px;
+    font-family: "Exo";
+    color: rgba(40, 40, 40, 0.659);
+    line-height: 1.625;
+  }
+
+  .new-features3-main{
+    background: #323969;
+    padding-top: 97px;
+  }
+
+  .newFeatures{
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .new-features3{
+    font-size: 16px;
+    font-family: "Exo";
+    color: rgb(255, 109, 109);
+    line-height: 3.125;
+  }
+
+  .Over{
+    font-size: 40px;
+    font-family: "Exo";
+    color: rgb(255, 255, 255);
+    line-height: 1.25;
+  }
+
+  .trial{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 16px;
+    font-family: "Exo";
+    color: rgb(246, 245, 243);
+    padding-bottom: 18px;
+    padding-right: 150px;
+
+  }
+
+  .sign-up{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+
+  .sign-up input{
+    border: 1px solid #fdfdfd;
+    border-radius: 3px;
+    background-color: rgba(246, 245, 243, 0.2);
+    opacity: 0.502;
+    width: 261px;
+    height: 47px;
+    color: #fdfdfd;
+
+  }
+
+  .sign-up .req:invalid {
+    border: 2px solid red;
+    border-radius: 3px;
+  }
+
+  .sign-up .req:valid{
+    border: 2px solid rgb(0, 255, 60);
+    border-radius: 3px;
+  }
+
+  .sign-up input:focus{
+    outline: none;
+  }
+
+  .sign-up input::placeholder{
+    color: #fdfdfd;
+    font-family: "Exo";
+    font-size: 16px;
+    padding-left: 27px;
+  }
+
+  .btn-try-now{
+    font-size: 20px;
+    font-family: "Exo";
+    color: rgb(246, 245, 243);
+    border-radius: 3px; 
+    border: 1px solid rgb(255, 109, 109);
+    background: rgb(255, 109, 109);
+    box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
+    width: 256px;
+    height: 48px;
+    cursor: pointer;
+    transition: ease-out .2s all;
+  }
+
+  .btn-try-now:hover{
+    background: rgb(237, 90, 90);
+    transition: ease-in .3s all;
+  }
+
+  .signig-up {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Exo";
+    color: rgba(246, 245, 243, 0.6);
+    line-height: 4.688;
+    padding-top: 51px;
+    padding-bottom: 90px;
+  }
+
+  .signig-up a{
+    color: rgba(246, 245, 243, 0.6);
+  }
+
+  .signig-up a:hover{
+    color: #fdfdfd;
+    transition: ease .3s all ;
+  }
+
+  .footer{
+    padding-top: 96px;
+    height: 330px;
+  }
+
+  .what{
+    font-size: 22px;
+    font-family: "Exo";
+    color: rgb(44, 47, 73);
+    line-height: 1.25;
+    display: flex ;
+    justify-content: space-around;
+    align-content: flex-start;
+    width: 1100px;
+    padding-left: 150px;
+  }
+
+  .start-ex {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .start-ex-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .start-ex-text, .about-us-child, .support-child{
+    font-size: 14px;
+    font-family: "Exo";
+    color: rgba(40, 40, 40, 0.561);
+    line-height: 1.857;
+  }
+
+  .support-child div:hover, .about-us-child div:hover{
+    color: rgba(255, 0, 0, 0.561);
+    cursor: pointer;
+  }
+
+  .email-input input{
+    border-width: 1px;
+    border-color: rgb(78, 78, 94);
+    border-style: solid;
+    border-radius: 3px;
+    background-color: rgba(141, 141, 141, 0.2);
+    opacity: 0.4;
+    width: 261px;
+    height: 47px;
+    padding-left: 27px;
+  }
+
+  .email-input .req2:invalid {
+    border: 2px solid red;
+    border-radius: 3px;
+  }
+
+  .email-input .req2:valid{
+    border: 2px solid rgb(0, 255, 60);
+    border-radius: 3px;
+  }
+
+  .email-input input:focus{
+    outline: none;
+  }
+
+  .btn-paper-plane{
+    border: 1px solid rgb(255, 109, 109);
+    border-radius: 3px;
+    background: rgb(255, 109, 109);
+    box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
+    width: 50px;
+    height: 47px;
+    cursor: pointer;
+  }
+
+  .social-media{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 270px;
+    padding-top: 20px;
+  }
+
+  .social-media img{
+    filter: grayscale(100%);
+    transition: ease-out .3s all;
+  }
+
+  .social-media img:hover{
+    filter: grayscale(0%);
+    transition: ease-in .3s all;
+    cursor: pointer;
+  }
+
+  @media all and (min-width: 360px) and (max-width: 380px){
+
+    .header{
+      text-align: center;
+      height: 690px;
+    }
+  
+    .first-text{
+      padding-top: 70px;
+    }
+  
+    .new-design{
+      padding: 60px 0;
+      text-align: center;
+    }
+  
+    .lorem-ipsum{
+      padding: 0px 20px 0px 20px;
+    }
+  
+    .new-features{
+      padding: 30px 0px 100px 0px;
+      height: 550px;
+    }
+  
+    .awesome-features{
+      font-size: 30px;
+    }
+  
+    .some-awesome-features{
+      display: grid;
+    }
+  
+    .some-a-f img{
+      width: 60px;
+      height: 60px;
+    }
+  
+    .new-design2{
+        display: grid;
+        text-align: center;
+        padding: 10px 30px 10px 30px;
+    }
+  
+    .text{
+      padding-bottom: 30px;
+    }
+  
+    .go-founder-main{
+      padding: 0;
+    }
+  
+    .go-founder{
+      display: grid;
+      padding-top: 30px;
+    }
+  
+    .go-founder-child{
+      padding-bottom: 40px;
+    }
+  
+    .text2{
+      font-size: 14px;
+    }
+    .partners{
+      display: grid;
+      padding: 20px 0px 20px 0px;
+    } 
+  
+    .logo1, .logo2, .logo3, .logo4, .logo5{
+      filter:invert(50%);
+      transition: ease-out .5s all;
+      padding-top: 30px;
+    }
+  
+    .new-features2-main{
+      padding: 40px 10px 40px 10px;
+      height: 400px;
+    }
+  
+    .Over{
+      font-size: 30px;
+    }
+  
+    .sign-up{
+      display: grid;
+    }
+  
+    .sign-up input{
+      margin-bottom: 10px;
+    }
+  
+    .sign-up button{
+      width: 264px;
+    }
+  
+    .signig-up{
+      padding: 0px;
+      font-size: 14px;
+    }
+  
+    .footer{
+      padding-top: 100px;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+    }
+  
+    .what{
+      width: 100px;
+      display: grid;
+      padding: 100px 100px 10px;
+      text-align: center;
+    }
+  
+    .start-ex,.support, .about-us{
+      padding-bottom: 10px;
+    }
+  
+    .email-input{
+      display: flex;
+    }
+  
+    .email-input input{
+      width: 180px;
+    }
+  }  
+
+  @media all and (min-width: 380px) and (max-width: 480px){
+
+    .header{
+      text-align: center;
+      height: 690px;
+    }
+
+    .first-text{
+      padding-top: 90px;
+    }
+
+    .new-design{
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .other-platforms{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+    .lorem-ipsum{
+      padding: 0px 20px 0px 20px;
+    }
+
+    .new-features{
+      padding: 60px 0px 60px 0px;
+      height: 650px;
+    }
+
+    .awesome-features{
+      font-size: 35px;
+    }
+
+    .some-awesome-features{
+      display: grid;
+    }
+
+    .some-a-f img{
+      width: 60px;
+      height: 60px;
+    }
+
+    .new-design2{
+        display: grid;
+        text-align: center;
+        padding: 10px 30px 10px 30px;
+    }
+
+    .text{
+      padding-bottom: 30px;
+    }
+
+    .go-founder-main{
+      padding: 0;
+    }
+
+    .go-founder{
+      display: grid;
+      padding-top: 30px;
+    }
+
+    .go-founder-child{
+      padding-bottom: 40px;
+    }
+
+    .partners{
+      display: grid;
+      padding: 20px 0px 20px 0px;
+    } 
+
+    .logo1, .logo2, .logo3, .logo4, .logo5{
+      filter:invert(50%);
+      transition: ease-out .5s all;
+      padding-top: 30px;
+    }
+
+    .new-features2-main{
+      padding: 40px 10px 40px 10px;
+      height: 400px;
+    }
+
+    .sign-up{
+      display: grid;
+    }
+
+    .sign-up input{
+      margin-bottom: 10px;
+    }
+
+    .sign-up button{
+      width: 264px;
+    }
+
+    .signig-up{
+      padding: 0px;
+    }
+
+    .footer{
+      padding-top: 100px;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .what{
+      width: 100px;
+      display: grid;
+      padding: 100px 100px 10px;
+      text-align: center;
+    }
+
+    .start-ex,.support, .about-us{
+      padding-bottom: 10px;
+    }
+
+    .email-input{
+      display: flex;
+    }
+
+    .email-input input{
+      width: 200px;
+    }
+}
+
+@media all and (min-width: 560px) and (max-width: 640px){
+  .header{
+    text-align: center;
+    height: 690px;
+  }
+
+  .first-text{
+    padding-top: 90px;
+  }
+
+  .new-design{
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  .other-platforms{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .lorem-ipsum{
+    padding: 0px 20px 0px 20px;
+  }
+
+  .new-features{
+    padding: 60px 0px 60px 0px;
+    height: 600px;
+  }
+
+  .awesome-features{
+    font-size: 35px;
+  }
+
+  .some-awesome-features{
+    display: grid;
+  }
+
+  .some-a-f img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .new-design2{
+      display: grid;
+      text-align: center;
+      padding: 10px 30px 10px 30px;
+  }
+
+  .text{
+    padding-bottom: 30px;
+  }
+
+  .go-founder-main{
+    padding: 0;
+  }
+
+  .go-founder{
+    display: grid;
+    padding-top: 30px;
+  }
+
+  .go-founder-child{
+    padding-bottom: 40px;
+  }
+
+  .partners{
+    display: grid;
+    padding: 20px 0px 20px 0px;
+  } 
+
+  .logo1, .logo2, .logo3, .logo4, .logo5{
+    filter:invert(50%);
+    transition: ease-out .5s all;
+    padding-top: 30px;
+  }
+
+  .new-features2-main{
+    padding: 40px 10px 40px 10px;
+    height: 400px;
+  }
+
+  .sign-up{
+    display: grid;
+  }
+
+  .sign-up input{
+    margin-bottom: 10px;
+  }
+
+  .sign-up button{
+    width: 264px;
+  }
+
+  .signig-up{
+    padding: 0px;
+  }
+
+  .footer{
+    padding-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .what{
+    width: 100px;
+    display: grid;
+    padding: 100px 100px 10px;
+    text-align: center;
+  }
+
+  .start-ex,.support, .about-us{
+    padding-bottom: 10px;
+  }
+
+  .email-input{
+    display: flex;
+  }
+
+  .email-input input{
+    width: 200px;
+  }
+}
+ 
+@media all and (min-width: 480px) and (max-width: 560px){
+  .header{
+    text-align: center;
+    height: 690px;
+  }
+
+  .first-text{
+    padding-top: 90px;
+  }
+
+  .new-design{
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  .other-platforms{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .lorem-ipsum{
+    padding: 0px 20px 0px 20px;
+  }
+
+  .new-features{
+    padding: 60px 0px 60px 0px;
+    height: 650px;
+  }
+
+  .awesome-features{
+    font-size: 35px;
+  }
+
+  .some-awesome-features{
+    display: grid;
+  }
+
+  .some-a-f img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .new-design2{
+      display: grid;
+      text-align: center;
+      padding: 10px 30px 10px 30px;
+  }
+
+  .text{
+    padding-bottom: 30px;
+  }
+
+  .go-founder-main{
+    padding: 0;
+  }
+
+  .go-founder{
+    display: grid;
+    padding-top: 30px;
+  }
+
+  .go-founder-child{
+    padding-bottom: 40px;
+  }
+
+  .partners{
+    display: grid;
+    padding: 20px 0px 20px 0px;
+  } 
+
+  .logo1, .logo2, .logo3, .logo4, .logo5{
+    filter:invert(50%);
+    transition: ease-out .5s all;
+    padding-top: 30px;
+  }
+
+  .new-features2-main{
+    padding: 40px 10px 40px 10px;
+    height: 400px;
+  }
+
+  .sign-up{
+    display: grid;
+  }
+
+  .sign-up input{
+    margin-bottom: 10px;
+  }
+
+  .sign-up button{
+    width: 264px;
+  }
+
+  .signig-up{
+    padding: 0px;
+  }
+
+  .footer{
+    padding-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .what{
+    width: 100px;
+    display: grid;
+    padding: 100px 100px 10px;
+    text-align: center;
+  }
+
+  .start-ex,.support, .about-us{
+    padding-bottom: 10px;
+  }
+
+  .email-input{
+    display: flex;
+  }
+
+  .email-input input{
+    width: 200px;
+  }
+}
+
+@media all and (min-width: 560px) and (max-width: 660px){
+  .header{
+    text-align: center;
+    height: 690px;
+  }
+
+  .first-text{
+    padding-top: 90px;
+  }
+
+  .new-design{
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  .other-platforms{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .lorem-ipsum{
+    padding: 0px 20px 0px 20px;
+  }
+
+  .new-features{
+    padding: 60px 0px 60px 0px;
+    height: 650px;
+  }
+
+  .awesome-features{
+    font-size: 35px;
+  }
+
+  .some-awesome-features{
+    display: grid;
+  }
+
+  .some-a-f img{
+    width: 60px;
+    height: 60px;    
+  }
+
+  .new-design2{
+      display: grid;
+      text-align: center;
+      padding: 10px 30px 10px 30px;
+  }
+
+  .text{
+    padding-bottom: 30px;
+  }
+
+  .go-founder-main{
+    padding: 0;
+  }
+
+  .go-founder{
+    display: grid;
+    padding-top: 30px;
+  }
+
+  .go-founder-child{
+    padding-bottom: 40px;
+  }
+
+  .partners{
+    display: grid;
+    padding: 20px 0px 20px 0px;
+  } 
+
+  .logo1, .logo2, .logo3, .logo4, .logo5{
+    filter:invert(50%);
+    transition: ease-out .5s all;
+    padding-top: 30px;
+  }
+
+  .new-features2-main{
+    padding: 40px 10px 40px 10px;
+    height: 400px;
+  }
+
+  .sign-up{
+    display: grid;
+  }
+
+  .sign-up input{
+    margin-bottom: 10px;
+  }
+
+  .sign-up button{
+    width: 264px;
+  }
+
+  .signig-up{
+    padding: 0px;
+  }
+
+  .footer{
+    padding-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .what{
+    width: 100px;
+    display: grid;
+    padding: 100px 100px 10px;
+    text-align: center;
+  }
+
+  .start-ex,.support, .about-us{
+    padding-bottom: 10px;
+  }
+
+  .email-input{
+    display: flex;
+  }
+
+  .email-input input{
+    width: 200px;
+  }
+}
+
+@media all and (min-width: 660px) and (max-width: 760px){
+  .header{
+    text-align: center;
+    height: 690px;
+  }
+
+  .first-text{
+    padding-top: 90px;
+  }
+
+  .new-design{
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  .other-platforms{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+  }
+
+  .lorem-ipsum{
+    padding: 0px 20px 0px 20px;
+  }
+
+  .new-features{
+    padding: 60px 0px 60px 0px;
+    height: 650px;
+  }
+
+  .awesome-features{
+    font-size: 35px;
+  }
+
+  .some-awesome-features{
+    display: grid;
+  }
+
+  .some-a-f img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .new-design2{
+      display: grid;
+      text-align: center;
+      padding: 10px 30px 10px 30px;
+  }
+
+  .text{
+    padding-bottom: 30px;
+  }
+
+  .go-founder-main{
+    padding: 0;
+  }
+
+  .go-founder{
+    display: grid;
+    padding-top: 30px;
+  }
+
+  .go-founder-child{
+    padding-bottom: 40px;
+  }
+
+  .partners{
+    display: grid;
+    padding: 20px 0px 20px 0px;
+  } 
+
+  .logo1, .logo2, .logo3, .logo4, .logo5{
+    filter:invert(50%);
+    transition: ease-out .5s all;
+    padding-top: 30px;
+  }
+
+  .new-features2-main{
+    padding: 40px 10px 40px 10px;
+    height: 400px;
+  }
+
+  .sign-up{
+    display: grid;
+  }
+
+  .sign-up input{
+    margin-bottom: 10px;
+  }
+
+  .sign-up button{
+    width: 264px;
+  }
+
+  .signig-up{
+    padding: 0px;
+  }
+
+  .footer{
+    padding-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .what{
+    width: 100px;
+    display: grid;
+    padding: 100px 100px 10px;
+    text-align: center;
+  }
+
+  .start-ex,.support, .about-us{
+    padding-bottom: 10px;
+  }
+
+  .email-input{
+    display: flex;
+  }
+
+  .email-input input{
+    width: 200px;
+  }
+}
+ 
+@media all and (min-width: 760px) and (max-width: 860px){
+  .header{
+    text-align: center;
+    height: 690px;
+  }
+
+  .first-text{
+    padding-top: 90px;
+  }
+
+  .new-design{
+    padding: 190px 150px 0px;
+    color: #ff6d6d;
+    font-family: "Exo";
+    font-size: 16px;
+}
+
+.other-platforms{
+    font-size: 40px;
+    color: black;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.lorem-ipsum{
+    font-size: 16px;
+    color: #717171;
+    padding-bottom: 171px;
+}
+
+  .new-features{
+    padding: 60px 0px 60px 0px;
+    height: 670px;
+  }
+
+  .awesome-features{
+    font-size: 35px;
+  }
+
+  .some-awesome-features{
+    display: grid;
+  }
+
+  .some-a-f img{
+    width: 70px;
+    height: 70px;
+  }
+
+  .new-design2{
+      display: grid;
+      text-align: center;
+      padding: 10px 50px 10px 50px;
+      height: 500px;
+  }
+
+  .new-design-child{
+    height: 50px;
+    padding-bottom: 0px;
+    margin: 0;
+  }
+
+  .resposive-design{
+    height: 100px;
+    padding-bottom: 0px;
+  }
+
+  .text{
+    padding-bottom: 30px;
+  }
+
+  .go-founder-main{
+    padding: 0;
+  }
+
+  .go-founder{
+    display: grid;
+    padding-top: 30px;
+  }
+
+  .go-founder-child{
+    padding-bottom: 40px;
+  }
+
+  .partners{
+    display: flex;
+  } 
+
+  .new-features2-main{
+    padding: 40px 10px 40px 10px;
+    height: 400px;
+  }
+
+  .sign-up{
+    display: grid;
+  }
+
+  .sign-up input{
+    margin-bottom: 10px;
+  }
+
+  .sign-up button{
+    width: 264px;
+  }
+
+  .signig-up{
+    padding: 0px;
+  }
+
+  .footer{
+    padding-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .what{
+    width: 100px;
+    display: grid;
+    padding: 100px 100px 10px;
+    text-align: center;
+  }
+
+  .start-ex,.support, .about-us{
+    padding-bottom: 10px;
+  }
+
+  .email-input{
+    display: flex;
+  }
+
+  .email-input input{
+    width: 200px;
+  }
+}
+ 
+@media all and (min-width: 860px) and (max-width: 960px){
+  
+  .header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 712px;  
+}
+
+.first-text {
+  font-size: 60px;
+  font-family: "Exo";
+  color: rgb(40, 40, 40);
+  line-height: 1.25;
+  text-align: center;
+  font-weight: 100;
+  padding: 192px 50px;
+  width: 708px;
+  height: 138px;
+}
+
+.new-design{
+  padding: 190px 150px 0px;
+  color: #ff6d6d;
+  font-family: "Exo";
+  font-size: 16px;
+}
+
+.other-platforms{
+  font-size: 40px;
+  color: black;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.lorem-ipsum{
+  font-size: 16px;
+  color: #717171;
+  padding-bottom: 171px;
+}
+
+.new-features{
+  padding-top: 138px;
+  height: 450px;
+  font-size: 16px;
+  font-family: "Exo";
+  color: #ff6d6d;
+  text-align: center;
+}
+
+.awesome-features{
+  font-size: 40px;
+  font-family: "Exo";
+  color: #282828;
+}
+
+.some-awesome-features{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #282828;
+  font-size: 22px;
+  line-height: 1.625;
+}
+
+.some-a-f div{
+  align-items: center;
+  font-size: 16px;
+  color: #80807f;
+  line-height: 1.625;
+}
+
+  .new-design2{
+      display: grid;
+      padding: 10px 10px 10px 500px;
+  }
+
+  .text{
+    padding-bottom: 30px;
+  }
+
+  .go-founder-main{
+    padding: 0;
+  }
+
+  .go-founder{
+    display: grid;
+    padding-top: 30px;
+  }
+
+  .go-founder-child{
+    padding-bottom: 40px;
+  }
+
+  .partners{
+    display: flex;
+  } 
+
+  .new-features2-main{
+    padding: 40px 10px 40px 10px;
+    height: 400px;
+  }
+
+  .sign-up{
+    display: grid;
+  }
+
+  .sign-up input{
+    margin-bottom: 10px;
+  }
+
+  .sign-up button{
+    width: 264px;
+  }
+
+  .signig-up{
+    padding: 0px;
+  }
+
+  .footer{
+    padding-top: 100px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .what{
+    width: 100px;
+    display: grid;
+    padding: 100px 100px 10px;
+    text-align: center;
+  }
+
+  .start-ex,.support, .about-us{
+    padding-bottom: 10px;
+  }
+
+  .email-input{
+    display: flex;
+  }
+
+  .email-input input{
+    width: 200px;
+  }
+}
+ 
+@media all and (min-width: 960px) and (max-width: 1160px){
+  
+  .header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 712px;  
+}
+
+.first-text {
+  font-size: 60px;
+  font-family: "Exo";
+  color: rgb(40, 40, 40);
+  line-height: 1.25;
+  text-align: center;
+  font-weight: 100;
+  padding: 192px 50px;
+  width: 708px;
+  height: 138px;
+}
+
+.new-design{
+  padding: 190px 150px 0px;
+  color: #ff6d6d;
+  font-family: "Exo";
+  font-size: 16px;
+}
+
+.other-platforms{
+  font-size: 40px;
+  color: black;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.lorem-ipsum{
+  font-size: 16px;
+  color: #717171;
+  padding-bottom: 171px;
+}
+
+.new-features{
+  padding-top: 138px;
+  height: 450px;
+  font-size: 16px;
+  font-family: "Exo";
+  color: #ff6d6d;
+  text-align: center;
+}
+
+.awesome-features{
+  font-size: 40px;
+  font-family: "Exo";
+  color: #282828;
+}
+
+.some-awesome-features{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #282828;
+  font-size: 22px;
+  line-height: 1.625;
+}
+
+.some-a-f div{
+  align-items: center;
+  font-size: 16px;
+  color: #80807f;
+  line-height: 1.625;
+}
+
+  .new-design2{
+      display: grid;
+      padding: 10px 10px 10px 650px;
+  }
+
+  .text{
+    padding-bottom: 30px;
+  }
+
+  .go-founder-main{
+    padding: 0;
+  }
+
+  .go-founder{
+    display: flex;
+    padding-top: 30px;
+  }
+
+  .go-founder-child{
+    padding-bottom: 40px;
+  }
+
+  .partners{
+    display: flex;
+  } 
+
+  .new-features2-main{
+    padding: 40px 10px 40px 10px;
+    height: 400px;
+  }
+
+  .sign-up{
+    display: flex;
+  }
+
+  .sign-up input{
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .sign-up button{
+    width: 264px;
+    margin-left: 10px;
+  }
+
+  .signig-up{
+    padding: 0px;
+  }
+
+  .footer{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .what{
+    display: flex;
+  }
+
+  .start-ex,.support, .about-us{
+    padding-bottom: 10px;
+  }
+
+  .email-input{
+    display: flex;
+  }
+
+  .email-input input{
+    width: 200px;
+  }
+}
+
+
+@media all and (min-width:1160px) and (max-width: 1360px){
+  
+  .header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 712px;  
+}
+
+.first-text {
+  font-size: 60px;
+  font-family: "Exo";
+  color: rgb(40, 40, 40);
+  line-height: 1.25;
+  text-align: center;
+  font-weight: 100;
+  padding: 192px 50px;
+  width: 708px;
+  height: 138px;
+}
+
+.new-design{
+  color: #ff6d6d;
+  font-size: 16px;
+}
+
+.other-platforms{
+  font-size: 40px;
+  color: black;
+  padding-bottom: 50px;
+  display: flex;
+}
+
+.lorem-ipsum{
+  font-size: 16px;
+  color: #717171;
+  padding-bottom: 171px;
+}
+
+.new-features{
+  padding-top: 138px;
+  height: 450px;
+  font-size: 16px;
+  font-family: "Exo";
+  color: #ff6d6d;
+  text-align: center;
+}
+
+.awesome-features{
+  font-size: 40px;
+  font-family: "Exo";
+  color: #282828;
+}
+
+.some-awesome-features{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #282828;
+  font-size: 22px;
+  line-height: 1.625;
+}
+
+.some-a-f div{
+  align-items: center;
+  font-size: 16px;
+  color: #80807f;
+  line-height: 1.625;
+}
+
+  .new-design2{
+      display: grid;
+      padding: 10px 10px 10px 650px;
+  }
+
+  .new-design-child{
+    font-size: 16px;
+    font-family: "Exo";
+    color: rgb(255, 109, 109);
+    line-height: 3.125;
+    padding-bottom: 20px;
+  }
+  
+  .resposive-design{
+    color: black;
+    font-size: 40px;
+    font-family: "Exo";
+    padding-bottom: 40px;
+    font-weight: 400;
+  }
+  
+  .text{
+    font-size: 16px;
+    font-family: "Exo";
+    color: rgba(40, 40, 40, 0.659);
+    line-height: 1.625;
+    padding-bottom: 30px;
+  }
+
+  .go-founder-main{
+    padding: 0;
+  }
+
+  .go-founder{
+    display: flex;
+    padding-top: 30px;
+  }
+
+  .go-founder-child{
+    padding-bottom: 40px;
+  }
+
+  .partners{
+    display: flex;
+  } 
+
+  .new-features2-main{
+    padding: 40px 10px 40px 10px;
+    height: 400px;
+  }
+
+  .sign-up{
+    display: flex;
+  }
+
+  .sign-up input{
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .sign-up button{
+    width: 264px;
+    margin-left: 10px;
+  }
+
+  .signig-up{
+    padding: 0px;
+  }
+
+  .footer{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .what{
+    display: flex;
+  }
+
+  .start-ex,.support, .about-us{
+    padding-bottom: 10px;
+  }
+
+  .email-input{
+    display: flex;
+  }
+
+  .email-input input{
+    width: 200px;
+  }
+}
